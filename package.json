@@ -1,0 +1,18 @@
+{
+  "name": "zonix-echo-server",
+  "version": "1.0.0",
+  "description": "Laravel Echo Server for Zonix Eats - Real-time notifications",
+  "main": "index.js",
+  "scripts": {
+    "start": "laravel-echo-server start",
+    "start:dev": "laravel-echo-server start --dev",
+    "init": "laravel-echo-server init",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["websockets", "laravel-echo", "real-time", "notifications"],
+  "author": "Zonix Eats Team",
+  "license": "ISC",
+  "dependencies": {
+    "laravel-echo-server": "^1.6.3"
+  }
+}
